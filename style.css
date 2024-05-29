@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  color: gray;
+}
+.btn {
+  padding: 9px 24px;
+  background-color: #2bd0d0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.more {
+  padding: 50px 0 150px;
+  display: flex;
+  gap: 102px;
+  align-items: center;
+}
+.more-text {
+  width: 563px;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -2px;
+}
+.more-text p {
+  margin: 30px 0;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #9e9aa8;
+}
+
+.boost {
+  background-color: rgb(78, 30, 30);
+  text-align: center;
+  padding: 40px 0;
+}
+.shorten {
+  width: 1110px;
+  padding: 50px 60px;
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  background-image: url("./img/Path\ 2.png");
+  border-radius: 20px;
+  margin: -100px auto 50px;
+  align-items: center;
+}
+input {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  padding: 14px 32px;
+  width: 769px;
+  height: 64px;
+  border-radius: 20px;
+}
+
+.btn2 {
+  padding: 15px 34px;
+  background-color: #2bd0d0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.boost h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+footer{
+    padding: 40px 0;
+    background-color: black;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
